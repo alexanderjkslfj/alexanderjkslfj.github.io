@@ -11,10 +11,29 @@ body {
 }
 
 a {
+
+}
+
+body > a {
     cursor: pointer;
     color: #aaa;
     font-size: 24px;
-    text-decoration: underline;
     max-width: 100%;
+    text-decoration: underline;
     word-wrap: break-word;
+    position: absolute;
+    top: 16px;
+}
+
+projects {
+    display: inline-block;
+}
+
+projects > a {
+    display: block;
+    color: #bbb;
+    font-size: 24px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
 }
